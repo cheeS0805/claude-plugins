@@ -14,9 +14,11 @@
 ## Встановлення
 
 ```bash
-claude plugin marketplace add C:\Users\User\claude-plugins
+claude plugin marketplace add cheeS0805/claude-plugins
 claude plugin install landing-guard@sonia-plugins --scope project
 ```
+
+Або всередині Claude Code: `/plugin marketplace add cheeS0805/claude-plugins`, потім `/plugin install landing-guard@sonia-plugins`.
 
 Потім створи в проєкті `.claude/landing-guard.json` (або попроси Claude: «налаштуй landing-guard» — skill `setup` запропонує вміст). **Без цього файлу плагін нічого не робить** — тож його безпечно ставити будь-куди.
 
