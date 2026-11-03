@@ -1,0 +1,7 @@
+{
+  "name": "landing-guard",
+  "version": "0.1.0",
+  "description": "Охоронець статичного сайту: захист телефонів і згенерованих файлів, збірка й перевірка після кожної правки, «де ми зупинились» на старті сесії, порядок дебагу. Налаштовується файлом .claude/landing-guard.json у проєкті; без нього нічого не робить.",
+  "author": { "name": "SoniaChernova" },
+  "keywords": ["landing", "static-site", "hooks", "phones", "verify"]
+}

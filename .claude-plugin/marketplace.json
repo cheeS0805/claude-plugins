@@ -1,0 +1,14 @@
+{
+  "name": "sonia-plugins",
+  "owner": { "name": "SoniaChernova" },
+  "metadata": {
+    "description": "Особисті плагіни Claude Code, зроблені під час навчального проєкту PRO CEILING."
+  },
+  "plugins": [
+    {
+      "name": "landing-guard",
+      "source": "./plugins/landing-guard",
+      "description": "Охоронець статичного сайту: захист телефонів і згенерованих файлів, збірка й перевірка після кожної правки, «де ми зупинились» на старті сесії, порядок дебагу."
+    }
+  ]
+}
